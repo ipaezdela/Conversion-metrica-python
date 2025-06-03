@@ -1,0 +1,28 @@
+PROBLEMATICA
+
+"La compañia estadounidense American MedaDesign esta realizando un nuevo modelo de muebles
+basados en los planos del famoso Diseñador industrial italiano Martin Vaccoto pero muchas
+piezas no han encajado correctamente debido a que los planos estan en centimetros y las maquinarias
+estadounidenses en pulgadas"
+-----------------------------------------------------------------------------------------------------
+
+ALGORITMO
+
+1. Soliticar al usuario las medidas de la pieza del mueble en centimetros
+2. Convertir las medidas de centimetros a pulgadas
+3. Mostrar las medidas convertidas en pulgadas al usuario.
+-----------------------------------------------------------------------------------------------------
+
+PSEUDOCODIGO
+
+Inicio
+    # Paso 1: Soliticar al usuario las medidas de la pieza del mueble en centimetros
+    Mostrar mensaje: "Por favor, ingresar las medidas de la pieza del mueble (en cms): "
+
+    # Paso 2: Convertir las medidas de centimetros a pulgadas
+    Convertir medida_en_in = medida_en_cms / 2.54
+
+    # Paso 3: Mostrar las medidas convertidas en pulgadas al usuario.
+    Mostrar mensaje: "Las medidas en pulgadas de la pieza ingresada son: ", medida_en_in
+
+    FIN
